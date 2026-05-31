@@ -16,8 +16,8 @@ terraform {
 
   # Remote state in S3 — one bucket, separate keys per environment
   backend "s3" {
-    bucket         = "gpp-terraform-state-${var.account_id}"
-    key            = "${var.environment}/terraform.tfstate"
+    bucket         = "gpp-terraform-state-840162528540"
+    key            = "dev/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
     dynamodb_table = "gpp-terraform-locks"
