@@ -1,7 +1,7 @@
 ################################################################################
 # GrandPrixPassport — Root Terraform Configuration
 # Single AWS Account, Multiple VPCs (dev/staging/prod)
-# Owner: Sandeep Pulim
+# Owner: Sandeep Baroth
 ################################################################################
 
 terraform {
@@ -32,7 +32,7 @@ provider "aws" {
       Project     = "GrandPrixPassport"
       Environment = var.environment
       ManagedBy   = "Terraform"
-      Owner       = "Sandeep Pulim"
+      Owner       = "Sandeep Baroth"
       CostCenter  = "gpp-${var.environment}"
     }
   }
