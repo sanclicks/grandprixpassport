@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.next/
+.expo/
+
+# Environment variables - NEVER COMMIT
+.env
+.env.local
+.env.production
+.env.*.local
+
+# AWS credentials - NEVER COMMIT
+.aws/
+credentials
+*.pem
+
+# Build outputs
+dist/
+build/
+out/
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!example.tfvars
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Sensitive docs
+legal/contracts/
+legal/signed/
